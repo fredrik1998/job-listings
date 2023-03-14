@@ -54,11 +54,9 @@ margin-top: 20px;
 color:  hsl(180, 29%, 50%);
 @media screen and (max-width: 910px) {
     margin-top: 10px;
-    margin-left: 20px;
-    
+    margin-left: 20px;   
 }
 `
-
 export const JobListNew = styled.h3`
 height: 20px;
 width: 50px;
@@ -117,6 +115,7 @@ padding-bottom: 20px;
 export const JobListDetailsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: flex-end;
   margin-top: -40px;
   margin-right: 30px;
@@ -128,6 +127,7 @@ export const JobListDetailsContainer = styled.div`
 `;
 
 export const JobListDetails = styled.button`
+display: flex;
 font-size: 16px;
 color: hsl(180, 29%, 50%);
 background-color: hsl(180, 31%, 95%);
@@ -147,4 +147,63 @@ flex-direction: row;
 @media screen and (max-width: 910px) {
     flex-direction: column;
 }
+`
+export const JobListRemove = styled.button`
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: hsl(180, 29%, 50%);
+color: #fafafa;
+border: none;
+padding: 8px;
+border-radius: 5px;
+margin-left: 5px;
+:hover{
+  background-color: hsl(180, 14%, 20%);
+}
+`
+export const JobListClear = styled.button`
+font-size: 16px;
+font-weight: 700;
+color: hsl(180, 8%, 52%);
+background: none;
+border: none;
+border-radius: 10px;
+padding: 8px;
+cursor: pointer;
+:hover{
+  color: hsl(180, 29%, 50%);
+  text-decoration: underline;
+}
+`
+export const JobListFilter = styled.div`
+position: relative;
+z-index: 2;
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: center;
+margin: 0 auto;
+background-color: #fefefe;
+border-radius: 5px;
+padding-left: 20px;
+padding-top: 20px;
+margin-top: -80px;
+padding-bottom: 10px;
+margin-bottom: 20px;
+width: 80%;
+`
+export const JobListFilterItem = styled.button`
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 16px;
+font-weight: 700;
+color: hsl(180, 29%, 50%);
+background-color: hsl(180, 31%, 95%);
+border: none;
+border-radius: 10px;
+padding: 3px;
+cursor: pointer;
 `
