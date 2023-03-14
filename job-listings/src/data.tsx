@@ -5,7 +5,7 @@ import { Job } from "./types";
  {
    "id": 1,
    "company": "Photosnap",
-   "logo": "src/images/photosnap.svg",
+   "logo": "src/assets/photosnap.svg",
    "new": true,
    "featured": true,
    "position": "Senior Frontend Developer",
@@ -20,7 +20,7 @@ import { Job } from "./types";
  {
    "id": 2,
    "company": "Manage",
-   "logo": "src/images/manage.svg",
+   "logo": "src/assets/manage.svg",
    "new": true,
    "featured": true,
    "position": "Fullstack Developer",
@@ -35,7 +35,7 @@ import { Job } from "./types";
  {
    "id": 3,
    "company": "Account",
-   "logo": "src/images/account.svg",
+   "logo": "src/assets/account.svg",
    "new": true,
    "featured": false,
    "position": "Junior Frontend Developer",
@@ -50,7 +50,7 @@ import { Job } from "./types";
  {
    "id": 4,
    "company": "MyHome",
-   "logo": "src/images/myhome.svg",
+   "logo": "src/assets/myhome.svg",
    "new": false,
    "featured": false,
    "position": "Junior Frontend Developer",
@@ -65,7 +65,7 @@ import { Job } from "./types";
  {
    "id": 5,
    "company": "Loop Studios",
-   "logo": "src/images/loop-studios.svg",
+   "logo": "src/assets/loop-studios.svg",
    "new": false,
    "featured": false,
    "position": "Software Engineer",
@@ -80,7 +80,7 @@ import { Job } from "./types";
  {
    "id": 6,
    "company": "FaceIt",
-   "logo": "src/images/faceit.svg",
+   "logo": "src/assets/faceit.svg",
    "new": false,
    "featured": false,
    "position": "Junior Backend Developer",
@@ -95,7 +95,7 @@ import { Job } from "./types";
  {
    "id": 7,
    "company": "Shortly",
-   "logo": "src/images/shortly.svg",
+   "logo": "src/assets/shortly.svg",
    "new": false,
    "featured": false,
    "position": "Junior Developer",
@@ -110,7 +110,7 @@ import { Job } from "./types";
  {
    "id": 8,
    "company": "Insure",
-   "logo": "src/images/insure.svg",
+   "logo": "src/assets/insure.svg",
    "new": false,
    "featured": false,
    "position": "Junior Frontend Developer",
@@ -125,7 +125,7 @@ import { Job } from "./types";
  {
    "id": 9,
    "company": "Eyecam Co.",
-   "logo": "src/images/eyecam-co.svg",
+   "logo": "src/assets/eyecam-co.svg",
    "new": false,
    "featured": false,
    "position": "Full Stack Engineer",
@@ -140,7 +140,7 @@ import { Job } from "./types";
  {
    "id": 10,
    "company": "The Air Filter Company",
-   "logo": "src/images/the-air-filter-company.svg",
+   "logo": "src/assets/the-air-filter-company.svg",
    "new": false,
    "featured": false,
    "position": "Front-end Dev",

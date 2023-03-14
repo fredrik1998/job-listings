@@ -21,7 +21,7 @@ import {
 } from './HomeScreenElements';
 
 import { Job } from '../../types';
-import iconRemove from '../../images/icon-remove.svg'
+import iconRemove from '../../assets/icon-remove.svg'
 interface HomescreenProps{
   data: Job[];
 }

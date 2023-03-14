@@ -1,6 +1,6 @@
 import React from 'react'
-import imgBg from '../../images/bg-header-desktop.svg'
-import imgMobile from '../../images/bg-header-mobile.svg'
+import imgBg from '../../assets/bg-header-desktop.svg'
+import imgMobile from '../../assets/bg-header-mobile.svg'
 import { StyledImage } from './HeaderElements'
 const Header: React.FC = () => {
   return (
