@@ -32,8 +32,7 @@ font-weight: 700;
 color: #000;
 @media screen and (max-width: 910px) {
     margin-top: 5px;
-    margin-left: 20px;
-    
+    margin-left: 20px;  
 }
 `
 
@@ -54,6 +53,44 @@ margin-left: 10px;
 margin-top: 20px;
 color:  hsl(180, 29%, 50%);
 @media screen and (max-width: 910px) {
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+`
+
+export const JobListNew = styled.h3`
+height: 20px;
+width: 50px;
+border-radius: 18px;
+padding-left: 8px;
+padding-right: 8px;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 700;
+margin-left: 10px;
+margin-top: 20px;
+color: #fff;
+background-color:  hsl(180, 29%, 50%);
+@media screen and (max-width: 910px) {
+    margin-top: 10px;
+    margin-left: 20px;  
+}
+`
+export const JobListFeatured = styled.h3`
+height: 20px;
+border-radius: 18px;
+padding-left: 8px;
+padding-right: 8px;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 700;
+margin-left: 10px;
+margin-top: 20px;
+color: #fff;
+background-color: #000;
+@media screen and (max-width: 910px) {
+    width: 75px;
     margin-top: 10px;
     margin-left: 20px;
     
@@ -90,11 +127,18 @@ export const JobListDetailsContainer = styled.div`
   }
 `;
 
-export const JobListDetails = styled.p`
+export const JobListDetails = styled.button`
 font-size: 16px;
 color: hsl(180, 29%, 50%);
 background-color: hsl(180, 31%, 95%);
-padding: 3px;
+border: none;
+border-radius: 10px;
+padding: 8px;
+cursor: pointer;
+:hover{
+  background-color: hsl(180, 29%, 50%);
+  color: #fafafa;
+}
 
 `
 export const JobListImageContainer = styled.div`
@@ -103,13 +147,4 @@ flex-direction: row;
 @media screen and (max-width: 910px) {
     flex-direction: column;
 }
-`
-export const JobListFilter = styled.div`
-display: flex;
-justify-content: flex-start;
-align-items: center;
-color: #000;
-background-color: #FFF;
-width: 80%;
-margin: 0 auto;
 `
